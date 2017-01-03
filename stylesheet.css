@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding:0px;
+    align-content: center;
+    text-align: center;
+}
+#container{
+    background-size: cover;
+    width:auto;
+    height: auto;
+    min-height: 580px;
+    min-width: 100%;
+}
+#image{
+   position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999;
+}
+.clock{
+     width: 530px;
+    height: 530px;
+    margin-top: 30px;
+    margin-left: 30%;
+   /* border: 3px solid #fff;*/
+}
+#clock_lay{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+   /* border: 3px solid #fff;*/
+    margin-top: 3%;
+    margin-left: 3%;
+}
+#tic{
+    background: #fff;
+    width: 2px;
+    height: 240px;
+    margin-left: 50%;
+    transform-origin: bottom;
+	animation: rot 5s linear infinite;
+}
+@keyframes rot{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.number1{
+    background: #fff;
+    height: 30px;
+    width: 3px;
+}
+#twelve{
+    background: #fff;
+    margin-top: -530px;
+    margin-left: 50%;
+}
+#one{
+    background: #fff;
+     transform: rotate(30deg);
+   margin-top: 24px;
+    margin-left: 80%;
+}
+#two{
+    background: #fff;
+     transform: rotate(60deg);
+     margin-top: 57px;
+    margin-left: 95%;
+}
+
+#three{
+    transform: rotate(90deg);
+    background: #fff;
+     margin-top: 75px;
+    margin-left: 100%;    
+}
+#four{
+    background: #fff;
+     transform: rotate(120deg);
+     margin-top: 75px;
+    margin-left: 95%;
+}
+#five{
+    background: #fff;
+     transform: rotate(150deg);
+      margin-top: 63px;
+    margin-left: 80%;
+}
+#six{
+    background: #fff;
+     transform: rotate(180deg);
+    margin-left: 50%;
+    margin-top: 20px;
+}
+#seven{
+    background: #fff;
+     transform: rotate(210deg);
+      margin-top: -23px;
+    margin-left: 20%;
+}
+#eight{
+    background: #fff;
+     transform: rotate(240deg);
+     margin-top: -23px;
+   margin-left: 5%;
+}
+#nine{
+    background: #fff;
+    transform: rotate(270deg);
+     margin-top: -23px;
+    margin-left: 0%;
+}
+#ten{
+    background: #fff;
+     transform: rotate(300deg);
+     margin-top: -23px;
+   margin-left: 5%;
+}
+#elewen{
+    background: #fff;
+     transform: rotate(330deg);
+    margin-top: -25px;
+   margin-left: 20%;
+}
+#logo{
+    color: #fff;
+    font-size: 40px;
+    font-family: Courier;
+    margin-left: -80%;
+    top: 0px;
+    left: 0px;
+}
+#name{
+    color: #fff;
+    font-size: 40px;
+    font-family: Courier;
+    margin-top: -300px;
+}
+#power{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 250px;
+    margin-left: -85%;
+}
+#copy{
+    font-size: 20px;
+    color: #fff;
+    margin-top: -20px;
+    margin-left: 80%;
+}
